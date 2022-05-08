@@ -10,7 +10,7 @@ https://t.me/normalaperra
 
 ![](./imagenes/esquema_peque.png) 
 
-El montaje es muy sencillo. 
+##El montaje es muy sencillo. 
 Solo unas pocas soldaduras siguiendo el esquema y tratando de impermeabilizar el conjunto tanto como sea posible. Hay que tener en cuenta que Norma es una Husky que ama el agua. 
 
 Para ello, introduciremos la tira de leds en el tubo de plástico para protegerlo de posibles daños y taparemos los extremos con silicona caliente para impermeabilizarlo. Hay que decir que se trata de un collar que Norma lleva varios años utilizando y que nos ha sido muy útil. También es cierto que su afición tanto por los baños de agua dulce como salada la ha puesto a prueba en más de una ocasión, a veces con resultados negativos para el collar... 
@@ -29,18 +29,18 @@ Cuando se conecta la alimentación, el collar muestra el nivel de batería resta
 Para facilitar la lectura de un vistazo, los primeros 5 serán azules, los tres siguientes (correspondientes al 60, 70 y 80 por ciento) serán de color amarillo anaranjado y los dos últimos (correspondientes al 90% y 100%) serán verdes.
 Luego realiza un test de los leds mostrando disitintos patrones y colores. 
 
-
-Durante su modo de funcionamiento el comportamiento es el siguiente: 
-
 ![](./imagenes/level100.jpg) 
 
-si Norma esta quieta, se mostrará COLOR ROJO.
 
-Si hay un nivel de actividad moderado, por ejemplo, caminar o moverse ligeramente, se mostrará COLOR VERDE.
+##Durante su modo de funcionamiento el comportamiento es el siguiente: 
 
-En caso de actividad intensa, como correr, el collar mostrará COLOR ROSA.
+si Norma esta quieta, se mostrará ##COLOR ROJO.
 
-Si hay cambios bruscos de dirección o saltos, se mostrará un patrón rotatorio con los COLORES DEL ARCO IRIS
+Si hay un nivel de actividad moderado, por ejemplo, caminar o moverse ligeramente, se mostrará ##COLOR VERDE.
+
+En caso de actividad intensa, como correr, el collar mostrará ##COLOR ROSA.
+
+Si hay cambios bruscos de dirección o saltos, se mostrará un patrón rotatorio con los ##COLORES DEL ARCO IRIS
 
 
 Dado que la intensidad del brillo y algunos patrones de color cambian a medida que se agota la batería, cada vez que hay un cambio en el nivel de la batería que afecta la forma de mostrar los colores, se mostrará un breve parpadeo azul seguido del nivel de la batería durante unos segundos, y luego se reanuda nuevametne el funcionamiento normal, mostrando colores dependiendo de los niveles de actividad.
