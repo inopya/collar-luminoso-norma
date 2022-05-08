@@ -56,3 +56,11 @@ Sería muy raro que Norma permaneciera completamente quieta el tiempo suficiente
 
 En ese caso, el collar vuelve a su modo de funcionamiento normal solo si la actividad se reanuda y se mantiene durante al menos unos minutos. De esta forma, evitamos que un error de lectura del acelerómetro pueda reactivar el collar si se pierde y esta activo el modo **baliza.**
 
+![](./imagenes/run1.jpg)
+
+![](./imagenes/stop1.jpg) 
+
+![](./imagenes/stop2.jpg) 
+
+![](./imagenes/stop3.jpg) 
+
