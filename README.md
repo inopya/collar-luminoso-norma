@@ -22,7 +22,7 @@ Finalmente se optó utilizar otras trozos de tubo de plástico para proteger el 
 
 Otra de las partes más dañadas sucesivamente fue el microinterruptor, por lo que al final optamos por un pequeño conector que debe ser conectado cada vez que se usa (ver foto). Es cierto que en otro tipo de mascota menos activa, una simple caja de plástico como las primeras versiones con un interruptor encendido para conexión y desconexión, sería más que suficiente.
 
-![](./imagenes/01_detalle_conector.jpg) 
+![](./imagenes/02_detalle_conector.jpg) 
 
 
 Cuando se conecta la alimentación, el collar muestra el nivel de batería restante por medio de los primeros 10 LED. 
