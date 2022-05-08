@@ -1,4 +1,24 @@
 # Collar luminoso para Norma
-Otro gadget para norma
+
+Otro gadget para Norma.
+Esta vez, un collar luminoso que cambia de color en función de su nivel de actividad. La función principal es tenerla localizada visualmente y hacerla visible a los demás durante los paseos nocturnos que tanto le gustan. 
+Pero también es una forma de conocer de manera bastante aproximada su nivel de actividad en cada momento.
+
+https://t.me/normalaperra
+
+
+![](./imagenes/esquema_peque.png) 
+
+El montaje es muy sencillo. 
+Solo unas pocas soldaduras siguiendo el esquema y tratando de impermeabilizar el conjunto tanto como sea posible. Hay que tener en cuenta que Norma es una Husky que ama el agua. 
+Para ello, introduciremos la tira de leds en el tubo de plástico para protegerlo de posibles daños y taparemos los extremos con silicona caliente para impermeabilizarlo. Hay que decir que se trata de un collar que Norma lleva varios años utilizando y que nos ha sido muy útil. También es cierto que su afición tanto por los baños de agua dulce como salada la ha puesto a prueba en más de una ocasión, a veces con resultados negativos para el collar... 
+Al principio la forma de proteger el circuito electrónico era una pequeña caja de plástico, pero siempre terminaba rompiéndose de una forma u otra. 
+Finalmente se optó utilizar otras trozos de tubo de plástico para proteger el acelerometro y al propio Arduino Nano.
+
+![](./imagenes/01_detalle_nano.png) 
+
+Otra de las partes más dañadas sucesivametne fue el microinterruptor, por lo que al final optamos por un pequeño conector que debe ser conectado cada vez que se usa (ver foto). Es cierto que en otro tipo de mascota menos activa, una simple caja de plástico como las primeras versiones con un interruptor encendido para conexión y desconexión, sería más que suficiente.
+
+![](./imagenes/01_detalle_conector.png) 
 
 
