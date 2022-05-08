@@ -34,13 +34,13 @@ Luego realiza un test de los leds mostrando disitintos patrones y colores.
 
 ## Durante su modo de funcionamiento el comportamiento es el siguiente: 
 
-si Norma esta quieta, se mostrará ## COLOR ROJO.
+si Norma esta quieta, se mostrará COLOR ROJO.
 
-Si hay un nivel de actividad moderado, por ejemplo, caminar o moverse ligeramente, se mostrará ## COLOR VERDE.
+Si hay un nivel de actividad moderado, por ejemplo, caminar o moverse ligeramente, se mostrará COLOR VERDE.
 
-En caso de actividad intensa, como correr, el collar mostrará ## COLOR ROSA.
+En caso de actividad intensa, como correr, el collar mostrará COLOR ROSA.
 
-Si hay cambios bruscos de dirección o saltos, se mostrará un patrón rotatorio con los ## COLORES DEL ARCO IRIS
+Si hay cambios bruscos de dirección o saltos, se mostrará un patrón rotatorio con los COLORES DEL ARCO IRIS
 
 
 Dado que la intensidad del brillo y algunos patrones de color cambian a medida que se agota la batería, cada vez que hay un cambio en el nivel de la batería que afecta la forma de mostrar los colores, se mostrará un breve parpadeo azul seguido del nivel de la batería durante unos segundos, y luego se reanuda nuevametne el funcionamiento normal, mostrando colores dependiendo de los niveles de actividad.
