@@ -45,3 +45,14 @@ Si hay cambios bruscos de dirección o saltos, se mostrará un patrón rotatorio
 
 Dado que la intensidad del brillo y algunos patrones de color cambian a medida que se agota la batería, cada vez que hay un cambio en el nivel de la batería que afecta la forma de mostrar los colores, se mostrará un breve parpadeo azul seguido del nivel de la batería durante unos segundos, y luego se reanuda nuevametne el funcionamiento normal, mostrando colores dependiendo de los niveles de actividad.
 
+
+Una función añadida después de algún tiempo de uso ha sido la función de **baliza** en caso de que se perdiera el collar, (lo que ha sucedido en un par de ocasiones). 
+
+En caso de que el acelerómetro deje de medir la actividad durante un cierto período de tiempo, Arduino entra en modo de **SLEEP** para cambiar a baja consumo. En este modo, en lugar de que todos los LED permanezcan encendidos en un color fijo (dependiendo del nivel de actividad), lo que se muestra es un parpadeo con un cierto patrón (alternando los LED utilizados), por lo que la duración de la batería aumenta considerablemente. 
+
+Esto nos permite buscarlo incluso la noche después de que se pierda, ya que la batería puede durar mucho más de 24 horas. 
+
+Sería muy raro que Norma permaneciera completamente quieta el tiempo suficiente para activar el modo **Baliza**, pero podría suceder... 
+
+En ese caso, el collar vuelve a su modo de funcionamiento normal solo si la actividad se reanuda y se mantiene durante al menos unos minutos. De esta forma, evitamos que un error de lectura del acelerómetro pueda reactivar el collar si se pierde y esta activo el modo **baliza.**
+
