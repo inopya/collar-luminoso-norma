@@ -25,15 +25,23 @@ Otra de las partes más dañadas sucesivamente fue el microinterruptor, por lo q
 ![](./imagenes/01_detalle_conector.jpg) 
 
 
-El collar inicia mostrando el nivel de la batería y luego realiza un test de los leds mostrando disitintos patrones y colores. 
+Cuando se conecta la alimentación, el collar muestra el nivel de batería restante por medio de los primeros 10 LED. 
+Para facilitar la lectura de un vistazo, los primeros 5 serán azules, los tres siguientes (correspondientes al 60, 70 y 80 por ciento) serán de color amarillo anaranjado y los dos últimos (correspondientes al 90% y 100%) serán verdes.
+Luego realiza un test de los leds mostrando disitintos patrones y colores. 
+
+
 Durante su modo de funcionamiento el comportamiento es el siguiente: 
 
 ![](./imagenes/level100.jpg) 
 
-si Norma esta quieta, se mostrará COLOR ROJO. 
-Si hay un nivel de actividad moderado, por ejemplo, caminar o moverse ligeramente, se mostrará COLOR VERDE. 
-En caso de actividad intensa, como correr, el collar mostrará COLOR ROSA. 
+si Norma esta quieta, se mostrará COLOR ROJO.
+
+Si hay un nivel de actividad moderado, por ejemplo, caminar o moverse ligeramente, se mostrará COLOR VERDE.
+
+En caso de actividad intensa, como correr, el collar mostrará COLOR ROSA.
+
 Si hay cambios bruscos de dirección o saltos, se mostrará un patrón rotatorio con los COLORES DEL ARCO IRIS
+
 
 Dado que la intensidad del brillo y algunos patrones de color cambian a medida que se agota la batería, cada vez que hay un cambio en el nivel de la batería que afecta la forma de mostrar los colores, se mostrará un breve parpadeo azul seguido del nivel de la batería durante unos segundos, y luego se reanuda nuevametne el funcionamiento normal, mostrando colores dependiendo de los niveles de actividad.
 
