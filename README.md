@@ -15,10 +15,10 @@ Para ello, introduciremos la tira de leds en el tubo de plástico para protegerl
 Al principio la forma de proteger el circuito electrónico era una pequeña caja de plástico, pero siempre terminaba rompiéndose de una forma u otra. 
 Finalmente se optó utilizar otras trozos de tubo de plástico para proteger el acelerometro y al propio Arduino Nano.
 
-![](./imagenes/01_detalle_nano.png) 
+![](./imagenes/01_detalle_nano.jpg) 
 
 Otra de las partes más dañadas sucesivametne fue el microinterruptor, por lo que al final optamos por un pequeño conector que debe ser conectado cada vez que se usa (ver foto). Es cierto que en otro tipo de mascota menos activa, una simple caja de plástico como las primeras versiones con un interruptor encendido para conexión y desconexión, sería más que suficiente.
 
-![](./imagenes/01_detalle_conector.png) 
+![](./imagenes/01_detalle_conector.jpg) 
 
 
