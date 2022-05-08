@@ -2,6 +2,7 @@
 
 Otro gadget para Norma.
 Esta vez, un collar luminoso que cambia de color en función de su nivel de actividad. La función principal es tenerla localizada visualmente y hacerla visible a los demás durante los paseos nocturnos que tanto le gustan. 
+
 Pero también es una forma de conocer de manera bastante aproximada su nivel de actividad en cada momento.
 
 https://t.me/normalaperra
@@ -11,14 +12,28 @@ https://t.me/normalaperra
 
 El montaje es muy sencillo. 
 Solo unas pocas soldaduras siguiendo el esquema y tratando de impermeabilizar el conjunto tanto como sea posible. Hay que tener en cuenta que Norma es una Husky que ama el agua. 
+
 Para ello, introduciremos la tira de leds en el tubo de plástico para protegerlo de posibles daños y taparemos los extremos con silicona caliente para impermeabilizarlo. Hay que decir que se trata de un collar que Norma lleva varios años utilizando y que nos ha sido muy útil. También es cierto que su afición tanto por los baños de agua dulce como salada la ha puesto a prueba en más de una ocasión, a veces con resultados negativos para el collar... 
+
 Al principio la forma de proteger el circuito electrónico era una pequeña caja de plástico, pero siempre terminaba rompiéndose de una forma u otra. 
 Finalmente se optó utilizar otras trozos de tubo de plástico para proteger el acelerometro y al propio Arduino Nano.
 
 ![](./imagenes/01_detalle_nano.jpg) 
 
-Otra de las partes más dañadas sucesivametne fue el microinterruptor, por lo que al final optamos por un pequeño conector que debe ser conectado cada vez que se usa (ver foto). Es cierto que en otro tipo de mascota menos activa, una simple caja de plástico como las primeras versiones con un interruptor encendido para conexión y desconexión, sería más que suficiente.
+Otra de las partes más dañadas sucesivamente fue el microinterruptor, por lo que al final optamos por un pequeño conector que debe ser conectado cada vez que se usa (ver foto). Es cierto que en otro tipo de mascota menos activa, una simple caja de plástico como las primeras versiones con un interruptor encendido para conexión y desconexión, sería más que suficiente.
 
 ![](./imagenes/01_detalle_conector.jpg) 
 
+
+El collar inicia mostrando el nivel de la batería y luego realiza un test de los leds mostrando disitintos patrones y colores. 
+Durante su modo de funcionamiento el comportamiento es el siguiente: 
+
+![](./imagenes/level100.jpg) 
+
+si Norma esta quieta, se mostrará COLOR ROJO. 
+Si hay un nivel de actividad moderado, por ejemplo, caminar o moverse ligeramente, se mostrará COLOR VERDE. 
+En caso de actividad intensa, como correr, el collar mostrará COLOR ROSA. 
+Si hay cambios bruscos de dirección o saltos, se mostrará un patrón rotatorio con los COLORES DEL ARCO IRIS
+
+Dado que la intensidad del brillo y algunos patrones de color cambian a medida que se agota la batería, cada vez que hay un cambio en el nivel de la batería que afecta la forma de mostrar los colores, se mostrará un breve parpadeo azul seguido del nivel de la batería durante unos segundos, y luego se reanuda nuevametne el funcionamiento normal, mostrando colores dependiendo de los niveles de actividad.
 
