@@ -1,11 +1,14 @@
 # Collar luminoso para Norma
 
 Otro gadget para Norma.
-Esta vez, un collar luminoso que cambia de color en función de su nivel de actividad. La función principal es tenerla localizada visualmente y hacerla visible a los demás durante los paseos nocturnos que tanto le gustan. 
+
+Esta vez, un collar luminoso que cambia de color en función de su nivel de actividad. 
+
+La función principal es tenerla localizada visualmente y hacerla visible a los demás durante los paseos nocturnos que tanto le gustan. 
 
 Pero también es una forma de conocer de manera bastante aproximada su nivel de actividad en cada momento.
 
-https://t.me/normalaperra
+![](./imagenes/norma_pose_collar_pq.jpg)       https://t.me/normalaperra
 
 
 ![](./imagenes/esquema_peque.png) 
