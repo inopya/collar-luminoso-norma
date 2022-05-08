@@ -8,13 +8,15 @@ La función principal es tenerla localizada visualmente y hacerla visible a los 
 
 Pero también es una forma de conocer de manera bastante aproximada su nivel de actividad en cada momento.
 
-![](./imagenes/norma_pose_collar_pq.jpg)       https://t.me/normalaperra
+![](./imagenes/norma_pose_collar_pq.jpg)      
+https://t.me/normalaperra
 
+
+## El montaje es muy sencillo. 
 
 ![](./imagenes/esquema_peque.png) 
 
-## El montaje es muy sencillo. 
-Solo unas pocas soldaduras siguiendo el esquema y tratando de impermeabilizar el conjunto tanto como sea posible. Hay que tener en cuenta que Norma es una Husky que ama el agua. 
+Solo unas pocas soldaduras siguiendo el esquema y tratar de impermeabilizar el conjunto tanto como sea posible. Hay que tener en cuenta que Norma es una Husky que ama el agua. 
 
 Para ello, introduciremos la tira de leds en el tubo de plástico para protegerlo de posibles daños y taparemos los extremos con silicona caliente para impermeabilizarlo. Hay que decir que se trata de un collar que Norma lleva varios años utilizando y que nos ha sido muy útil. También es cierto que su afición tanto por los baños de agua dulce como salada la ha puesto a prueba en más de una ocasión, a veces con resultados negativos para el collar... 
 
