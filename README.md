@@ -9,7 +9,7 @@ La función principal es tenerla localizada visualmente y hacerla visible a los 
 Pero también es una forma de conocer de manera bastante aproximada su nivel de actividad en cada momento.
 
 ![](./imagenes/norma_pose_collar_pq.jpg)      
-https://t.me/normalaperra
+**https://t.me/normalaperra**
 
 
 ## El montaje es muy sencillo. 
